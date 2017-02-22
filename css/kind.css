@@ -1,0 +1,434 @@
+div.kind{
+	position: relative;
+}
+div.kind img{
+	display: block;
+}
+div.kind header{
+	position:fixed;
+	left:0;
+	top:0;
+	background: none;
+	z-index: 2;
+}
+header{
+	width:100%;
+	height:3.6rem;
+	line-height:3.6rem;
+	color:#333;
+	background: #fff;
+	overflow: hidden;
+}
+.list header{
+	border-bottom: 1px solid #dbdbdb;
+}
+header h2{
+	width: 90%;
+	margin:0 auto;
+	text-align: center;
+	font-size:1.2rem;
+	font-weight: normal;
+}
+header > a:nth-child(3){
+	position: absolute;
+	right:1.5rem;
+	top:0rem;
+	width:1.5rem;
+	z-index: 3;
+}
+header > a:nth-child(1){
+	margin-left: 1.5rem;
+}
+header > a:nth-child(3) i.iconfont{
+	font-size: 1.5rem;
+}
+header a i.iconfont{
+	font-size:1.5rem;
+}
+div.kind header a i.iconfont{
+	color:#fff;
+}
+.padding{
+	padding:0 1.5rem;
+}
+.kindCon{
+	margin:1rem 0;
+}
+.kindCon > a{
+	width:49%;
+	box-shadow: 0 0 15px #999;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
+.kindCon > a img{
+	border-radius: 5px;
+}
+/**************matchCon***************/
+div.match{
+	background: #efefef;
+	
+}
+.matchCon{
+	padding:0 1rem;
+}
+.matchCon .sec{
+	background: #fff;
+	margin-top: 0.8rem;
+	box-shadow: 2px 5px 15px #d5d5d5;
+	border-radius: 5px;
+}
+.matchCon .sec a img{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.matchCon .txt{
+	margin-top:0.5rem;
+}
+.matchCon .txt p{
+	height:2.5rem;
+	line-height:2.5rem;
+}
+.matchCon .txt p:nth-child(1) span{
+	float:left;
+	width:4.5rem;
+	height:2rem;
+	line-height:2rem;
+	text-align: center;
+	border-radius: 1rem;
+	border:1px solid #666;
+	margin-right:1rem;
+	color:#666;
+	font-size: 0.8rem;
+}
+/**************list************************/
+.box .list01{
+	overflow: hidden;
+}
+.list01{
+	padding: 0 1rem;
+}
+.list01 a{
+	width:48%;
+	text-align: center;
+	margin-top:0.8rem;
+}
+.list01 a:nth-child(2n+1){
+	float:left;
+}
+.list01 a:nth-child(2n){
+	float:right;
+}
+.list01 dl{
+	position: relative;
+	box-shadow: 1px 5px 5px #dbdbdb;
+	border-radius: 5px;
+}
+.list01 dl img{
+	border-radius: 5px;
+	display: block;
+}
+.list01 dl dd{
+	position: absolute;
+	left:0;
+	bottom: 0;
+	width:100%;
+	height:2.5rem;
+	line-height:2.5rem;
+	background: rgba(255,255,255,0.8);
+	box-shadow: -2px 0 5px #fff;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.list01 dl dd span:first-child{
+	margin-left: 0.5rem;
+	color:#666;
+}
+.list01 dl dd span:last-child{
+	margin-right: 0.5rem;
+	color:#c10000;
+}
+/*.list01 dl dd:nth-child(2){
+	width:90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #dbdbdb;
+}*/
+.list01 dl dd:last-child{
+	color:#fff;
+}
+/*det*/
+
+.swiper-slide a{
+	display: block;
+	width:100%;
+	padding-bottom: 10px;
+}
+.btns{
+	display: flex;
+	width:20rem;
+	margin:2rem auto;
+}
+.btns p{
+	flex: 1;
+}
+.btns p a{
+	display: block;
+	background: #efefef;
+	width:3.8rem;
+	height:3.8rem;
+	line-height:3.8rem;
+	border-radius: 1.9rem;
+	text-align: center;
+	color: #777;
+}
+.btns p:nth-child(2) a{
+	background: #C10000;
+	color: #fff;
+}
+.box{
+	position: relative;
+}
+.tip{
+	position: fixed;
+	left:1rem;
+	bottom:5%;
+	width:87%;
+	background: #fff;
+	z-index: 10;
+	padding:1rem;
+	border-radius: 5px;
+	box-shadow: 0 3px 15px #999;
+	display: none;
+}
+.tip p:nth-child(1){
+	text-align: center;
+	font-size: 1.2rem;
+}
+.tip p:nth-child(2){
+	color:#777;
+}
+.tip .imgs img{
+	width:3rem;
+	height: 3rem;
+	float: left;
+	margin-left:1rem;
+	border-radius: 1.5rem;
+}
+.tip .kinds{
+	line-height: 3rem;
+	margin:1.5rem auto;
+}
+.tip .num{
+	margin:0.5rem auto 1.5rem;
+}
+.tip .num > div i,.tip .num > div span{
+	width:5rem;
+	height:1.5rem;
+	line-height:1.5rem;
+	text-align: center;
+	border: 1px solid #dbdbdb;
+}
+.tip .num > div span{
+	border-left:none;
+	border-right:none;
+}
+.tip .btns p a{
+	width:8rem;
+	height:2.5rem;
+	line-height:2.5rem;
+	/*background: #C10000;*/
+	margin: 0 auto;
+}
+/*det*/
+.det header{
+	border:none;
+}
+.detail header{
+	color: #fff;
+	border:none;
+}
+.detCon{
+	background: #EFEFEF;
+}
+.detCon .txt{
+	text-align: center;
+	margin-bottom:0.5rem;
+	background: #fff;
+	text-align: left;
+	padding-left: 1rem;
+}
+.detCon .txt p:nth-child(1){
+	font-size:1.2rem;
+}
+.detCon .txt p:nth-child(2){
+	color:#777;
+}
+.detCon .choice{
+	background: #fff;
+}
+.detCon .choice p{
+	color: #777;
+	line-height: 3.6rem;
+	padding: 0 1rem;
+	border-bottom: 1px solid #DBDBDB;
+}
+.detCon .choice ul.kinds{
+	padding: 0 1rem;
+}
+.detCon .choice ul.kinds li{
+	float: left;
+	border:1px solid #dbdbdb;
+	padding: 0.5rem;
+	margin:0.5rem 1rem 0 0;
+	font-size:0.8rem;
+}
+.detCon .txt p:nth-child(3){
+	font-size: 1.2rem;
+	line-height: 2.5rem;
+	color:#C10000;
+}
+.detCon > p{
+	height:3.6rem;
+	padding:0 1rem;
+	line-height:3.6rem;
+	background: #fff;
+}
+.detCon > p:nth-child(3){
+	text-align: center;
+	color:#777;
+	background: #EFEFEF;
+}
+.tit{
+	height:3.6rem;
+	line-height:3.6rem;
+	background: #fff;
+	border-bottom: 1px solid #DBDBDB;
+	padding:0 1rem;
+}
+.tit a{
+	float: left;
+	width:7rem;
+	text-align: center;
+	/*margin-bottom: 0.5rem;*/
+}
+.tit a.on{
+	border-bottom: 1px solid #C10000;
+}
+.con{
+	padding:.5rem 0;
+	background: #fff;
+}
+.eva{
+	display: none;
+	background: #fff;
+}
+.per{
+	border-bottom:1px dashed #dbdbdb;
+	margin-bottom:0.5rem;
+}
+.perR > img{
+	width:2rem;
+	height:2rem;
+	margin-right: 0.5rem;
+}
+.perR{
+	margin-left:1rem;
+}
+.perR p{
+	line-height: 2rem;
+}
+.perR div p{
+	float: left;
+	margin-right:1rem;
+	padding:2px;
+	border:1px solid #f0f0f0;
+}
+.perR div p img{
+	display: block;
+}
+.perR p span{
+	color:#b0b0b0;
+	margin-right:1rem;
+}
+.lastBtn{
+	position: fixed;
+	left:0;
+	bottom:0;
+	height:3.6rem;
+	line-height:3.6rem;
+	width:100%;
+}
+.lastBtn a{
+	width:50%;
+	float: left;
+	text-align: center;
+	background: #c10000;
+	color:#fff;
+}
+.lastBtn a:nth-child(2){
+	background: #efefef;
+	color:#777;
+}
+.mask{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	left:0;
+	top:0;
+	background: rgba(0,0,0,0.5);
+	display: none;
+	z-index: 10;
+}
+.last .tip{
+	bottom:0;
+	left:0;
+	width:100%;
+}
+.last .tip .btns a{
+	background: #C10000;
+	color: #fff;
+}
+/*******card****er******************/
+.er{
+	text-align: center;
+}
+.er header{
+	border-bottom: 1px solid #dbdbdb;
+}
+.userName{
+	text-align: center;
+	margin:2rem auto;
+}
+.userName img{
+	width:3rem;
+	height:3rem;
+	border-radius:1.5rem ;
+}
+.er img{
+	width:70%;
+}
+/*msg*/
+.msgList{
+	padding:0 0.5rem;
+}
+.msgList li{
+	height:3rem;
+	line-height:3rem;
+	padding:0 0.5rem;
+	border-bottom:1px solid #dbdbdb;
+}
+.msgList li span:nth-child(1){
+	float:left;
+}
+
+.msgList li span:nth-child(2){
+	float:right;
+}
+.msgList li span:nth-child(2) img{
+	width:2rem;
+	height:2rem;
+	border-radius: 1rem;
+	vertical-align: middle;
+}
+.msgList li span:nth-child(2) i{
+	margin-left:0.5rem;
+}

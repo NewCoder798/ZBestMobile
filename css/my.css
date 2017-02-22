@@ -1,0 +1,56 @@
+.myMsg{
+	margin:4rem auto;
+}
+.myMsg .pic{
+	width:22rem;
+	margin: 0 auto;
+	display: flex;
+}
+.myMsg .pic a{
+	margin:0 2rem;
+}
+.myMsg .pic a img{
+	width:5.4rem;
+	height:5.4rem;
+	border-radius: 2.7rem;
+}
+.myMsg .pic p{
+	width:7.4rem;
+	margin-bottom: 2.5rem;
+	border-bottom:1px solid #dbdbdb;
+}
+.myMsg p.userName{
+	text-align: center;
+	color: #666;
+}
+.navList{
+	padding:0 1.5rem;
+}
+.navList nav{
+	display: flex;
+	border-bottom:1px solid #333;
+	margin:1rem 0;
+}
+.navList nav a{
+	flex:1;
+	height:2.5rem;
+	line-height:2.5rem;
+	text-align: center;
+}
+.navList .subNav a i.iconfont{
+	font-size: 2.2rem;
+}
+.navList nav a i.iconfont{
+	font-size:1.5rem;
+	margin-right:0.5rem;
+}
+.subNav{
+	display: flex;
+	flex-flow:row wrap;
+	margin-top:2rem;
+}
+.subNav a{
+	flex:1 1 25%;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
